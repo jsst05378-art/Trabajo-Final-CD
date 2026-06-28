@@ -1,0 +1,28 @@
+# ══════════════════════════════════════════════════════════
+#  requirements.txt — Banco Atlas Financiero (Streamlit Cloud)
+#  Versiones fijadas para garantizar compatibilidad
+# ══════════════════════════════════════════════════════════
+
+# Streamlit
+streamlit>=1.35.0
+
+# LangChain — paquetes modernos separados (no langchain-community deprecated)
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-google-genai>=2.0.0
+langchain-huggingface>=0.1.0
+langchain-chroma>=0.1.4
+langchain-community>=0.3.0
+
+# Embeddings y modelo multilingüe
+sentence-transformers>=3.0.0
+huggingface-hub>=0.24.0
+
+# Base de datos vectorial
+chromadb>=0.5.0
+
+# Herramienta Wikipedia
+wikipedia>=1.4.0
+
+# Google Generative AI (backend de Gemini)
+google-generativeai>=0.8.0
